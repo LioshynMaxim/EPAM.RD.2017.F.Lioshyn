@@ -1,0 +1,2 @@
+D:\Education\Epam\Lab\dotnetbasics-master\Day1\SampleService\ServiceApplication\bin\Debug\ServiceApplication.exe.config
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\ServiceApplication.exe.config
