@@ -1,7 +1,11 @@
 ﻿using System;
 
-namespace MyServiceLibrary
+namespace UserServiceLibrary
 {
+    /// <summary>
+    /// Class for work with entity user.
+    /// </summary>
+
     public class User
     {
         public int Id { get; set; }

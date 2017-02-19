@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MyServiceLibrary.Tests
+namespace UserServiceLibrary.Tests
 {
     [TestClass]
-    public class MyServiceTests
+    public class UserServiceTests
     {
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]

@@ -1,4 +1,4 @@
-﻿using MyServiceLibrary;
+﻿using UserServiceLibrary;
 
 namespace ServiceApplication
 {

@@ -6,8 +6,8 @@
     <ProjectGuid>{9A6C785F-F746-4392-89EF-C133C6FF80F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyServiceLibrary.Tests</RootNamespace>
-    <AssemblyName>MyServiceLibrary.Tests</AssemblyName>
+    <RootNamespace>UserServiceLibrary.Tests</RootNamespace>
+    <AssemblyName>UserServiceLibrary.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="MyServiceTests.cs" />
+    <Compile Include="UserServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyServiceLibrary\MyServiceLibrary.csproj">
+    <ProjectReference Include="..\MyServiceLibrary\UserServiceLibrary.csproj">
       <Project>{83615058-2919-4ca9-84c2-5368cef9f281}</Project>
-      <Name>MyServiceLibrary</Name>
+      <Name>UserServiceLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
