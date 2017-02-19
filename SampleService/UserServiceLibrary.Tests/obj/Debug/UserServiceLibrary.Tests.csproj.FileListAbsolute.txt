@@ -1,0 +1,11 @@
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\bin\Debug\UserServiceLibrary.Tests.dll
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\bin\Debug\UserServiceLibrary.Tests.pdb
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\bin\Debug\nunit.framework.dll
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\bin\Debug\UserServiceLibrary.dll
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\bin\Debug\UserServiceLibrary.pdb
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\bin\Debug\UserServiceLibrary.xml
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\bin\Debug\nunit.framework.xml
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\obj\Debug\UserServiceLibrary.Tests.csprojResolveAssemblyReference.cache
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\obj\Debug\UserServiceLibrary.Tests.dll
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\obj\Debug\UserServiceLibrary.Tests.pdb

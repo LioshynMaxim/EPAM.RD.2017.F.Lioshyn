@@ -8,12 +8,24 @@ namespace UserServiceLibrary
 
     public class User
     {
+        /// <summary>
+        /// User id.
+        /// </summary>
         public int Id { get; set; }
 
+        /// <summary>
+        /// User first name.
+        /// </summary>
         public string FirstName { get; set; }
 
+        /// <summary>
+        /// User last name.
+        /// </summary>
         public string LastName { get; set; }
 
-        public DateTime DateOfBirth { get; set; }
+        /// <summary>
+        /// User birth date.
+        /// </summary>
+        public DateTime? DateOfBirth { get; set; }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\UserServiceApplication.exe.config
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\UserServiceApplication.exe
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\UserServiceApplication.pdb
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\nunit.framework.dll
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\UserServiceLibrary.dll
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\UserServiceLibrary.pdb
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\UserServiceLibrary.xml
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\nunit.framework.xml
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\obj\Debug\UserServiceApplication.csprojResolveAssemblyReference.cache
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\obj\Debug\UserServiceApplication.exe
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\obj\Debug\UserServiceApplication.pdb

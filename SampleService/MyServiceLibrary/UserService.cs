@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading;
 using UserServiceLibrary.Exception;
 using UserServiceLibrary.Interface;
 using static System.String;
@@ -12,13 +11,13 @@ namespace UserServiceLibrary
     /// User interface class.
     /// </summary>
 
-    public class UserService : IUserInterface
+    public class UserService : IUserService
     {
         #region fields
 
         private IEqualityComparer<User> UserEquality { get; }
         private Func<object, int> IdUser { get; }
-        private IEnumerable<User> users;
+        private HashSet<User> Users { get; set; }
 
         #endregion
 
@@ -31,6 +30,7 @@ namespace UserServiceLibrary
         public UserService()
         {
             IdUser = o => o.GetHashCode();
+            Users = new HashSet<User>();
         }
 
         /// <summary>
@@ -41,6 +41,7 @@ namespace UserServiceLibrary
 
         public UserService(Func<object, int> idUser = null, IEqualityComparer<User> userEquality = null)
         {
+            Users = new HashSet<User>();
             IdUser = idUser;
             UserEquality = userEquality ?? EqualityComparer<User>.Default;
         }
@@ -65,11 +66,12 @@ namespace UserServiceLibrary
             if (IsNullOrEmpty(user.FirstName) ||  IsNullOrEmpty(user.LastName) || user.DateOfBirth == null)
                 throw new NotInitializedFieldUserException($"{nameof(user)} is not initialized some (all) fields.");
 
-            if (users.Contains(user, UserEquality))
+            if (!CheckUser(user) || Users.Contains(user))
                 throw new ExistUserException($"{nameof(user)} is exist.");
+            
 
             user.Id = IdUser(user);
-            users.ToList().Add(user);
+            Users.Add(user);
         }
 
         /// <summary>
@@ -84,7 +86,7 @@ namespace UserServiceLibrary
             if (user == null)
                 throw new ArgumentNullException($"{nameof(user)} is null");
 
-            if (users.FirstOrDefault(u => UserEquality.Equals(u, user)) == default(User))
+            if (CheckUser(user))
                 throw new DoesNotUserException($"{nameof(user)} is not exist.");
         }
 
@@ -100,8 +102,21 @@ namespace UserServiceLibrary
             if(predicate == null)
                 throw new ArgumentNullException($"{nameof(predicate)} is null");
 
-            return users.Where(u => predicate(u));
+            return Users.Where(u => predicate(u));
         }
+
+        #endregion
+
+        #region Auximilary
+
+        /// <summary>
+        /// Check user in DB.
+        /// </summary>
+        /// <param name="user">User specimen.</param>
+        /// <returns>True, if user in DB, false in other.</returns>
+
+        private bool CheckUser(User user)
+            => Users.FirstOrDefault(u => u.FirstName == user.FirstName && u.LastName == user.LastName) == default(User);
 
         #endregion
     }

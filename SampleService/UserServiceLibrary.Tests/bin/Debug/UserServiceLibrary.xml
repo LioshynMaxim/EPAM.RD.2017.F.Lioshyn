@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserServiceLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:UserServiceLibrary.Exception.DoesNotUserException">
+            <summary>
+            Class discription not exist user.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.DoesNotUserException.#ctor">
+            <summary>
+            User not exist exception.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.DoesNotUserException.#ctor(System.String)">
+            <summary>
+            User not exist exception.
+            </summary>
+            <param name="message">Massage exception.</param>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.DoesNotUserException.#ctor(System.String,System.Exception)">
+            <summary>
+            User not exist exception.
+            </summary>
+            <param name="message">Massage exception.</param>
+            <param name="innerException">Gets the Exception instance that caused the current exception.</param>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.DoesNotUserException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User not exist exception.
+            </summary>
+            <param name="info">Stores all the data needed to serialize or deserialize an object.</param>
+            <param name="context">Describes the source and destination of a given serialized stream, and provides an additional caller-defined context.</param>
+        </member>
+        <member name="T:UserServiceLibrary.Exception.ExistUserException">
+            <summary>
+            Class discription exist user.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.ExistUserException.#ctor">
+            <summary>
+            User exist exception.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.ExistUserException.#ctor(System.String)">
+            <summary>
+            User exist exception.
+            </summary>
+            <param name="message">Massage exception.</param>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.ExistUserException.#ctor(System.String,System.Exception)">
+            <summary>
+            User exist exception.
+            </summary>
+            <param name="message">Massage exception.</param>
+            <param name="innerException">Gets the Exception instance that caused the current exception.</param>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.ExistUserException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User exist exception.
+            </summary>
+            <param name="info">Stores all the data needed to serialize or deserialize an object.</param>
+            <param name="context">Describes the source and destination of a given serialized stream, and provides an additional caller-defined context.</param>
+        </member>
+        <member name="T:UserServiceLibrary.Exception.NotInitializedFieldUserException">
+            <summary>
+            Class discription not initialization user fields.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.NotInitializedFieldUserException.#ctor">
+            <summary>
+            Not initialization user fields exception.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.NotInitializedFieldUserException.#ctor(System.String)">
+            <summary>
+            Not initialization user fields exception.
+            </summary>
+            <param name="message">Massage excepcion.</param>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.NotInitializedFieldUserException.#ctor(System.String,System.Exception)">
+            <summary>
+            Not initialization user fields exception.
+            </summary>
+            <param name="message">Massage exception.</param>
+            <param name="innerException">Gets the Exception instance that caused the current exception.</param>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.NotInitializedFieldUserException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Not initialization user fields exception.
+            </summary>
+            <param name="info">Stores all the data needed to serialize or deserialize an object.</param>
+            <param name="context">Describes the source and destination of a given serialized stream, and provides an additional caller-defined context.</param>
+        </member>
+        <member name="T:UserServiceLibrary.Exception.UserServiceException">
+            <summary>
+            Discription user exception class.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.UserServiceException.#ctor">
+            <summary>
+            User service exception.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.UserServiceException.#ctor(System.String)">
+            <summary>
+            User service exception.
+            </summary>
+            <param name="message">Massage exception.</param>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.UserServiceException.#ctor(System.String,System.Exception)">
+            <summary>
+            User service exception.
+            </summary>
+            <param name="message">Massage exception.</param>
+            <param name="innerException">Gets the Exception instance that caused the current exception.</param>
+        </member>
+        <member name="M:UserServiceLibrary.Exception.UserServiceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            User service exception.
+            </summary>
+            <param name="info">Stores all the data needed to serialize or deserialize an object.</param>
+            <param name="context">Describes the source and destination of a given serialized stream, and provides an additional caller-defined context.</param>
+        </member>
+        <member name="T:UserServiceLibrary.Interface.IUserService">
+            <summary>
+            Intarface for user's main function.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Interface.IUserService.Add(UserServiceLibrary.User)">
+            <summary>
+            Add new user.
+            </summary>
+            <param name="user">User specimen.</param>
+        </member>
+        <member name="M:UserServiceLibrary.Interface.IUserService.Delete(UserServiceLibrary.User)">
+            <summary>
+            Delete new user.
+            </summary>
+            <param name="user">User specimen.</param>
+        </member>
+        <member name="M:UserServiceLibrary.Interface.IUserService.SearchUserBySomeName(System.Predicate{UserServiceLibrary.User})">
+            <summary>
+            List user by predicate.
+            </summary>
+            <param name="predicate">Predicate.</param>
+            <returns>List of users.</returns>
+        </member>
+        <member name="T:UserServiceLibrary.UserService">
+            <summary>
+            User interface class.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.UserService.#ctor">
+            <summary>
+            Default ctor.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.UserService.#ctor(System.Func{System.Object,System.Int32},System.Collections.Generic.IEqualityComparer{UserServiceLibrary.User})">
+            <summary>
+            ctor
+            </summary>
+            <param name="idUser">Id user.</param>
+            <param name="userEquality">Equality user compere.</param>
+        </member>
+        <member name="M:UserServiceLibrary.UserService.Add(UserServiceLibrary.User)">
+            <summary>
+            Add new user.
+            </summary>
+            <param name="user">User specimen.</param>
+            <exception cref="T:System.ArgumentNullException">Argument is null.</exception>
+            <exception cref="T:UserServiceLibrary.Exception.NotInitializedFieldUserException">Not initialized some field.</exception>
+            <exception cref="T:UserServiceLibrary.Exception.ExistUserException">This user is exist.</exception>
+        </member>
+        <member name="M:UserServiceLibrary.UserService.Delete(UserServiceLibrary.User)">
+            <summary>
+            Delete new user.
+            </summary>
+            <param name="user">User specimen.</param>
+            <exception cref="T:UserServiceLibrary.Exception.DoesNotUserException">User is exist.</exception>
+            <exception cref="T:System.ArgumentNullException">Argument is null.</exception>
+        </member>
+        <member name="M:UserServiceLibrary.UserService.SearchUserBySomeName(System.Predicate{UserServiceLibrary.User})">
+            <summary>
+            List user by predicate.
+            </summary>
+            <param name="predicate">Predicate.</param>
+            <exception cref="T:System.ArgumentNullException">Argument is null.</exception>
+            <returns>List of users.</returns>
+        </member>
+        <member name="M:UserServiceLibrary.UserService.CheckUser(UserServiceLibrary.User)">
+            <summary>
+            Check user in DB.
+            </summary>
+            <param name="user">User specimen.</param>
+            <returns>True, if user in DB, false in other.</returns>
+        </member>
+        <member name="T:UserServiceLibrary.User">
+            <summary>
+            Class for work with entity user.
+            </summary>
+        </member>
+        <member name="P:UserServiceLibrary.User.Id">
+            <summary>
+            User id.
+            </summary>
+        </member>
+        <member name="P:UserServiceLibrary.User.FirstName">
+            <summary>
+            User first name.
+            </summary>
+        </member>
+        <member name="P:UserServiceLibrary.User.LastName">
+            <summary>
+            User last name.
+            </summary>
+        </member>
+        <member name="P:UserServiceLibrary.User.DateOfBirth">
+            <summary>
+            User birth date.
+            </summary>
+        </member>
+    </members>
+</doc>
