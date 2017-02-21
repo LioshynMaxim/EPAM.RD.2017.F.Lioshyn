@@ -6,14 +6,12 @@ namespace UserServiceLibrary.Interface
     /// <summary>
     /// Intarface for user's main function.
     /// </summary>
-
     public interface IUserService
     {
         /// <summary>
         /// Add new user.
         /// </summary>
         /// <param name="user">User specimen.</param>
-
         void Add(User user);
 
         /// <summary>

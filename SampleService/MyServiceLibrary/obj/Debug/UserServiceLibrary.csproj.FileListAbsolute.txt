@@ -5,3 +5,4 @@ C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary
 C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\bin\Debug\nunit.framework.xml
 C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\obj\Debug\UserServiceLibrary.dll
 C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\obj\Debug\UserServiceLibrary.pdb
+C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\obj\Debug\UserServiceLibrary.csprojResolveAssemblyReference.cache

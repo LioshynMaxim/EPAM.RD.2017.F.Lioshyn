@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserServiceLibrary.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:UserServiceLibrary.Tests.UserServiceTests">
+            <summary>
+            Class for test User Library.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Add_NullUser_Exception">
+            <summary>
+            Add null user.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Add_UserWithEmptyOrNullLastNameField_Exception">
+            <summary>
+            Add user with null last name.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Add_UserWithEmptyOrNullFirstNameField_Exception">
+            <summary>
+            Add user with null first name.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Add_UserWithEmptyOrNullDateOfBirthField_Exception">
+            <summary>
+            Add user with non birth day.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Add_TwoSimilarUsersWithEqualityComparer_ExceptionThrown">
+            <summary>
+            Add user with two equal users.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Add_TwoAddedOneUser_Exception">
+            <summary>
+            Test with exception about 2 equals users.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Add_Seccess_User">
+            <summary>
+            Test with success user.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Delete_NullUser_Exception">
+            <summary>
+            Delete null user.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Delete_UnexistingUser_Exception">
+            <summary>
+            Delete not exist user.
+            </summary>
+        </member>
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Delete_NotValidUser_Exception">
+            <summary>
+            Delete not valid user.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:UserServiceLibrary.Tests.UserServiceTests.Delete_User_Success" -->
+    </members>
+</doc>

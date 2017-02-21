@@ -5,7 +5,6 @@ namespace UserServiceLibrary
     /// <summary>
     /// Class for work with entity user.
     /// </summary>
-
     public class User
     {
         /// <summary>

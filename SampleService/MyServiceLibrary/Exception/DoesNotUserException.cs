@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.Serialization;
 
 namespace UserServiceLibrary.Exception
 {
@@ -15,7 +10,6 @@ namespace UserServiceLibrary.Exception
         /// <summary>
         /// User not exist exception.
         /// </summary>
-
         public DoesNotUserException()
         {
         }
@@ -24,7 +18,6 @@ namespace UserServiceLibrary.Exception
         /// User not exist exception.
         /// </summary>
         /// <param name="message">Massage exception.</param>
-
         public DoesNotUserException(string message) : base(message)
         {
         }
@@ -34,7 +27,6 @@ namespace UserServiceLibrary.Exception
         /// </summary>
         /// <param name="message">Massage exception.</param>
         /// <param name="innerException">Gets the Exception instance that caused the current exception.</param>
-
         public DoesNotUserException(string message, System.Exception innerException) : base(message, innerException)
         {
         }
@@ -44,7 +36,6 @@ namespace UserServiceLibrary.Exception
         /// </summary>
         /// <param name="info">Stores all the data needed to serialize or deserialize an object.</param>
         /// <param name="context">Describes the source and destination of a given serialized stream, and provides an additional caller-defined context.</param>
-
         protected DoesNotUserException(SerializationInfo info, StreamingContext context) : base(info, context)
         {
         }
