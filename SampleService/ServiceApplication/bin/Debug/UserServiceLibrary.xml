@@ -158,12 +158,11 @@
             Default ctor.
             </summary>
         </member>
-        <member name="M:UserServiceLibrary.UserService.#ctor(System.Func{System.Object,System.Int32},System.Collections.Generic.IEqualityComparer{UserServiceLibrary.User})">
+        <member name="M:UserServiceLibrary.UserService.#ctor(System.Func{System.Object,System.Int32})">
             <summary>
             ctor
             </summary>
             <param name="idUser">Id user.</param>
-            <param name="userEquality">Equality user compere.</param>
         </member>
         <member name="M:UserServiceLibrary.UserService.Add(UserServiceLibrary.User)">
             <summary>

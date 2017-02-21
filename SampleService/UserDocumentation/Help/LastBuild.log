@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\UserDocumentation.shfbproj" started="20.02.2017 15:39:49">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.1.28.0" projectFile="C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\UserDocumentation.shfbproj" started="21.02.2017 10:59:47">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -18,42 +18,39 @@ Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\SampleService.sln
-    Found project &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\UserServiceApplication.csproj&#39;
-    Found project &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\UserServiceLibrary.csproj&#39;
-    Found project &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\UserServiceLibrary.Tests.csproj&#39;
 Source: C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\UserServiceLibrary.csproj
-    Ignoring duplicate project file &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\UserServiceLibrary.csproj&#39;
+    Found project &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\UserServiceLibrary.csproj&#39;
+Source: C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\obj\Debug\UserServiceLibrary.dll
+    Found assembly &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\obj\Debug\UserServiceLibrary.dll&#39;
+Source: C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\bin\Debug\UserServiceLibrary.dll
+    Found assembly &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\bin\Debug\UserServiceLibrary.dll&#39;
+Source: C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\bin\Debug\UserServiceLibrary.xml
 
 Parsing project files
-    Found assembly &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\UserServiceApplication.exe&#39;
-    Found assembly &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\bin\Debug\UserServiceLibrary.dll&#39;
-    Found assembly &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\bin\Debug\UserServiceLibrary.Tests.dll&#39;
+    Ignoring duplicate assembly file &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\bin\Debug\UserServiceLibrary.dll&#39;
+    Ignoring duplicate comments file &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\bin\Debug\UserServiceLibrary.xml&#39;
 SHFB: Warning BE0007: A project with a different or higher framework version was found.  Changing project FrameworkVersion property from &#39;.NET Framework 4.5&#39; to &#39;.NET Framework 4.5.2&#39; for the build.
 
 References to include (excluding framework assemblies):
     C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\bin\Debug\UserServiceLibrary.dll
-    Microsoft.VisualStudio.QualityTools.UnitTestFramework
     nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL
 
 Copying XML comments files
-    C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\ServiceApplication\bin\Debug\UserServiceApplication.XML -&gt; C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\UserServiceApplication.XML
     C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\MyServiceLibrary\bin\Debug\UserServiceLibrary.xml -&gt; C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\UserServiceLibrary.xml
-    C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserServiceLibrary.Tests\bin\Debug\UserServiceLibrary.Tests.XML -&gt; C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\UserServiceLibrary.Tests.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0095
+</plugIn>    Last step completed in 00:00:00,0100
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0015
+    Last step completed in 00:00:00,0010
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 20.02.2017 15:39:51.
+‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 21.02.2017 10:59:48.
 Џа&#174;ҐЄв &quot;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\GenerateRefInfo.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
 PrepareForBuild:
   ‘&#174;&#167;&#164;&#160;&#173;ЁҐ Є&#160;в&#160;&#171;&#174;Ј&#160; &quot;obj\Debug\&quot;.
@@ -62,8 +59,8 @@ GenerateRefInfo:
   Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
-  Loaded 3 assemblies for reflection and 4 dependency assemblies.
-  Wrote information on 5 namespaces, 9 types, and 43 members
+  Loaded 2 assemblies for reflection and 3 dependency assemblies.
+  Wrote information on 3 namespaces, 14 types, and 58 members
   Љ&#174;ЇЁа&#174;ў&#160;&#173;ЁҐ д&#160;&#169;&#171;&#160; Ё&#167; &quot;reflection.org&quot; ў &quot;reflection.all&quot;.
   XslTransform (v2017.1.28.0)
   Copyright c 2006-2017, Microsoft Corporation, All Rights Reserved.
@@ -73,13 +70,13 @@ GenerateRefInfo:
 
 ‘Ў&#174;аЄ&#160; гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#160;.
 
-‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:00.79
-    Last step completed in 00:00:01,3557
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:00.74
+    Last step completed in 00:00:01,0540
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 20.02.2017 15:39:53.
+‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 21.02.2017 10:59:49.
 Џа&#174;ҐЄв &quot;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\TransformManifest.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
 TransformManifest:
   XslTransform (v2017.1.28.0)
@@ -99,12 +96,12 @@ TransformManifest:
 
 ‘Ў&#174;аЄ&#160; гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#160;.
 
-‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:00.65
-    Last step completed in 00:00:00,9108
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:00.56
+    Last step completed in 00:00:00,8057
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,0150
+    Last step completed in 00:00:00,0100
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -119,14 +116,14 @@ Generating conceptual topic files
     C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\ddueXml\882ab393-e400-4042-9f04-004f4354cd14.xml
     Parsing topic file &#39;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Content\VersionHistory\v1.0.0.0.aml&#39;
     C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\ddueXml\d246e7ba-3f4b-4b80-8b62-a60a27c45bad.xml
-    Last step completed in 00:00:00,0631
+    Last step completed in 00:00:00,0651
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00,0125
+    Last step completed in 00:00:00,0130
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -135,12 +132,12 @@ C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentatio
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00,0005
+    Last step completed in 00:00:00,0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 20.02.2017 15:39:54.
+‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 21.02.2017 10:59:50.
 Џа&#174;ҐЄв &quot;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\GenerateIntermediateTOC.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
 GenerateIntermediateTOC:
   XslTransform (v2017.1.28.0)
@@ -151,14 +148,14 @@ GenerateIntermediateTOC:
 
 ‘Ў&#174;аЄ&#160; гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#160;.
 
-‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:00.17
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:00.12
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00,4284
+    Last step completed in 00:00:00,3733
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00,2752
+    Last step completed in 00:00:00,2552
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -166,12 +163,12 @@ C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentatio
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00,0070
+    Last step completed in 00:00:00,0060
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 20.02.2017 15:39:54.
+‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 21.02.2017 10:59:51.
 Џа&#174;ҐЄв &quot;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
 BuildTopics:
   BuildAssembler (v2017.1.28.0)
@@ -179,31 +176,25 @@ BuildTopics:
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ShowMissingComponent: [N:ServiceApplication] Missing &lt;summary&gt; documentation [C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ServiceApplication.Program] Missing &lt;summary&gt; documentation [C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ServiceApplication.Program.Main(System.String[])] Missing &lt;summary&gt; documentation [C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ServiceApplication.Program.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:UserServiceLibrary] Missing &lt;summary&gt; documentation [C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:UserServiceLibrary.Exception] Missing &lt;summary&gt; documentation [C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:UserServiceLibrary.Interface] Missing &lt;summary&gt; documentation [C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [N:UserServiceLibrary.Tests] Missing &lt;summary&gt; documentation [C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:UserServiceLibrary.Tests.UserServiceTests.Delete_User_Success] Missing &lt;summary&gt; documentation [C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj]
-  Processed 83 topic(s)
-  9 warning(s)
+  Processed 63 topic(s)
+  3 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
-  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 ‘Ў&#174;аЄ&#160; Їа&#174;ҐЄв&#160; &quot;C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\BuildTopics.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#160; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
 
 ‘Ў&#174;аЄ&#160; гбЇҐи&#173;&#174; &#167;&#160;ўҐаиҐ&#173;&#160;.
 
-‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:13.37
-    Last step completed in 00:00:13,6633
+‡&#160;ва&#160;зҐ&#173;&#173;&#174;Ґ ўаҐ&#172;п: 00:00:13.71
+    Last step completed in 00:00:13,9796
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0030
+    Last step completed in 00:00:00,0040
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -215,11 +206,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\Output\HtmlHelp1
-Processed 83 HTML files
+Processed 63 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\UserDocumentation.hhk
 Saving HTML Help 1 table of contents to C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\UserDocumentation.hhc
-    Last step completed in 00:00:00,4614
+    Last step completed in 00:00:00,4374
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -285,7 +276,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\Output\HtmlHelp1\styles\branding.css
-    Last step completed in 00:00:00,5775
+    Last step completed in 00:00:00,6266
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -293,11 +284,11 @@ Generating HTML Help 1 table of contents file...
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00,0005
+    Last step completed in 00:00:00,0010
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00,0095
+    Last step completed in 00:00:00,0050
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -312,13 +303,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 0 minutes, 3 seconds
+  Compile time: 0 minutes, 2 seconds
   
-  85	Topics
+  65	Topics
   
-  741	Local links
+  542	Local links
   
-  465	Internet links
+  405	Internet links
   
   0	Graphics
   
@@ -326,19 +317,19 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\Output\HtmlHelp1\UserDocumentation.chm, 143,841 bytes
+  Created c:\Users\l_ma\Source\Repos\EPAM.RD.2017.F.Lioshyn\SampleService\UserDocumentation\Help\Working\Output\HtmlHelp1\UserDocumentation.chm, 123,879 bytes
   
-  Compression decreased file by 580,761 bytes.
+  Compression decreased file by 451,901 bytes.
   
-    Last step completed in 00:00:04,6152
+    Last step completed in 00:00:04,0557
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,2677
+    Last step completed in 00:00:00,2842
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 20.02.2017 15:40:14.  Total time: 00:00:24,2353
+Build completed successfully at 21.02.2017 11:00:10.  Total time: 00:00:23,0207
 
 </buildStep>
 </shfbBuild>

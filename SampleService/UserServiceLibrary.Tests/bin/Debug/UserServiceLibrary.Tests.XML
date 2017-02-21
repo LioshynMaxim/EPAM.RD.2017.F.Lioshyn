@@ -59,6 +59,10 @@
             Delete not valid user.
             </summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:UserServiceLibrary.Tests.UserServiceTests.Delete_User_Success" -->
+        <member name="M:UserServiceLibrary.Tests.UserServiceTests.Delete_User_Success">
+            <summary>
+            Add and delete added users from other users.
+            </summary>
+        </member>
     </members>
 </doc>
